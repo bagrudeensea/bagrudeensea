@@ -1,0 +1,11 @@
+#include<studio.h>
+#include<conio.h>
+void main()
+{
+int i;
+for(i=0;i<=10;i++);
+}
+printf("hello\n");
+}
+return0;
+}

@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
 {
-    int i=1,f=1,x;
+    int i=2,f=2,x;
     printf("enter the value");
     scanf("%d",&x);
-    for(i=1;i<=x;i++)
+    for(i=2;i<=x;i++)
     {
         f=f*i;
     }

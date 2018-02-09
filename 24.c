@@ -13,6 +13,6 @@ mod=temp%10;
 sum=sum*10+mod;
 temp=temp/10;
 }
-printf("%d",sum);
+printf("\n%d",sum);
 return 0;
 }

@@ -2,7 +2,7 @@
 main()
 {
 int a[25],i,j,n,m;
-printf("Enter the number");
+printf("\nEnter the number");
 scanf("%d",&n);
 for(i=0;i<=n-1;i++)
 {
@@ -20,6 +20,6 @@ a[j+1]=temp;
 
  {
  m=n/2;
-  printf("The sorted array is...%d",a[m]);
+  printf("\nThe sorted array is...%d",a[m]);
 }
 }

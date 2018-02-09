@@ -1,12 +1,22 @@
-#include<studio.h>
- void main()
+#include<stdio.h>
+#include<conio.h>
+void main()
 {
-   int a;
-   printf(" Enter a numeric element:");
-   scanf( "%d", &a );
-   if( isdigit(a) )
-        printf(" It is a Numeric number:%d\n",a);
-    else
-        printf(" It is not a Numeric number:%d\n",a);
-    return 0;
+char ch[100];
+int i;
+clrscr();
+printf("\nEnter string:");
+for(i=0;i<100;i++)
+{
+scanf("%c",&ch[i]);
+if(ch[i]=='k')
+{
+break;
+}
+}
+for(i=0;ch[i]!='\0';i++)
+{
+printf("\n%c",ch[i]);
+}
+getch();
 }

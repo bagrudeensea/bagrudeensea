@@ -3,7 +3,7 @@ void main()
 {
 	int i=0,count=0;
 	char str[40];
-	printf("/nEnter the String:");
+	printf("\nEnter the String:");
 	scanf("%s",&str);
 	while(str[i]!='\0')
 	{
@@ -14,5 +14,5 @@ void main()
 		++i;
 	}
 	++count;
-	printf("/n%d",count);
+	printf("\n%d",count);
 }
